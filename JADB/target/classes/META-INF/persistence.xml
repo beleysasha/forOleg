@@ -1,0 +1,18 @@
+<?xml version = "1.0" encoding="UTF-8"?>
+<persistence xmlns="http://xmlns.jcp.org/xml/ns/persistence"
+             xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+             xsi:schemaLocation="http://java.sun.com/xml/ns/persistence
+             http://java.sun.com/xml/ns/persistence/persistence_2_2.xsd"
+             version="2.2">
+             <persistence-unit name="BELEY">
+                <properties>
+                    <property name = "javax.persistence.jdbc.url" value="jdbc:mysql://localhost:3306/lesson?useUnicodserverTimezone=UTC"/>
+                    <property name = "javax.persistence.jdbc.user" value="Sasha"/>
+                    <property name = "javax.persistence.jdbc.password" value="Ищщ23652005"/>
+                    <property name = "javax.persistence.jdbc.driver" value="com.mysql.jdbc.Driver"/>
+                    <property name = "htibernate.show_sql" value="true"/>
+                    <property name = "htibernate.format_sql" value="true"/>
+                    <property name = "htibernate.hbm2ddl_sql" value="update"/>
+                </properties>
+             </persistence-unit>
+</persistence>
